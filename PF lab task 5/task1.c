@@ -10,34 +10,37 @@ int main() {
     int vowelcount = 0;
                   
 
-    printf("Enter first character:\n");
-    scanf("%c", &c1);
+     printf("Enter first character:\n");
+    scanf(" %c", &c1);
 
     printf("Enter second character:\n");
-    scanf("%c", &c2);
+    scanf(" %c", &c2);
 
     printf("Enter third character:\n");
-    scanf("%c", &c3);
+    scanf(" %c", &c3);
 
-    if (c1 == vowels)
-    { vowelcount = vowelcount++;
+    if (c1 == 'a' || c1 == 'e' || c1 == 'i' || c1 == 'o' || c1 == 'u')
+    {  vowelcount++;
     } else{
-        conscount = conscount++;
+     conscount++;
     }
-    if (c2 == vowels)
+    if (c2 == 'a' || c2 == 'e' || c2 == 'i' || c2 == 'o' || c2 == 'u')
     {
-         vowelcount = vowelcount++;
+          vowelcount++;
     } else {
-        conscount = conscount++;
+        conscount++;
     }
-    if (c3 == vowels)
+    if (c3 == 'a' || c3 == 'e' || c3 == 'i' || c3 == 'o' || c3 == 'u')
     {
-        vowelcount = vowelcount++;
+      vowelcount++;
     } else {
-        conscount = conscount++;
+      conscount++;
     }
-    printf("Total number of vowels\n", vowelcount);
-    printf("Total number of consonants\n", conscount);
+    printf("Total number of vowels = %d\n", vowelcount);
+    printf("Total number of consonants = %d\n", conscount);
 
     return 0;
+
+}
+
 }
