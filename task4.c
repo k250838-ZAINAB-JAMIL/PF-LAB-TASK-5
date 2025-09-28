@@ -16,15 +16,8 @@
  	printf("area is %.2f\n circumference is %.2f\n squareroot %.2f ", area,circumference,squareroot);
  	
  	return 0;
- 	
- 	
- 	
- 	
- 	
- 	
- 	
- 	
-
+ 
  }
  	    
  
+
